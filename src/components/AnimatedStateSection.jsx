@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from "react";
-import "../style.css";
+import { useEffect, useState } from "react";
 import BackgroundImage from "../images/BackgroundImage.png";
 import LogoBackground from "../images/LogoBackground.png";
 import ArrowRight from "../images/ArrowRight.png";

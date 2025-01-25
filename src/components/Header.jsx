@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import '../style.css';
+import { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight, faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 import Logo from '../images/Logo.png'

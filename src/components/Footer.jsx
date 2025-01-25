@@ -1,5 +1,3 @@
-import React from 'react';
-import '../style.css';
 import Line2 from'../images/Line2.png'
 import Instagram from '../images/Instagram.png'
 import Facebook from '../images/Facebook.png'

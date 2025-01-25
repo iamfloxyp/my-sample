@@ -1,4 +1,3 @@
-import React from 'react'
 import Header from './components/Header'
 import MainSection from './components/MainSection'
 import SecondSection from './components/SecondSection'
@@ -10,6 +9,7 @@ import Friday from './components/Friday'
 import Testimonial from './components/Testimonial'
 import FAQSection from './components/FaqSection'
 import Footer from './components/Footer'
+import './index.css'
 
 const App = () => {
   return (

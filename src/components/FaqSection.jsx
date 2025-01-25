@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import "../style.css";
+// import { useState } from 'react';
 import Vector from "../images/Vector.png";
 
 const FAQSection = () => {

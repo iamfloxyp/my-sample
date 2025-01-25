@@ -1,5 +1,3 @@
-import React from "react";
-import "../style.css"; // Ensure your CSS styles are included here
 import Vector2 from "../images/Vector2.png";
 import Blackguy from "../images/Blackguy.png";
 import ArrowRight3 from "../images/ArrowRight3.png"

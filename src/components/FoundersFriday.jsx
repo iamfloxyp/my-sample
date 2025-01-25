@@ -1,5 +1,3 @@
-import React from "react";
-import "../style.css";
 import PeopleListening from '../images/PeopleListening.png'
 import WomenTalking from '../images/WomenTalking.png'
 import Vector3 from '../images/Vector3.png'
