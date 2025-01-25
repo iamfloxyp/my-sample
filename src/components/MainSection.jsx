@@ -1,7 +1,5 @@
-import React from "react";
-import "../style.css"; 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
 import Img1 from '../images/Img1.png'
 import Img2 from '../images/Img2.png'
 import Img3 from '../images/Img3.png'

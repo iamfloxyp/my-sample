@@ -1,6 +1,4 @@
-import React from "react";
 import Blackguy from "../images/Blackguy.png"; 
-import "../style.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight, faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 

@@ -1,5 +1,3 @@
-import React from "react";
-import "../style.css";
 import ThreePeople from '../images/ThreePeople.png'
 import Vector1 from '../images/Vector1.png'
 import Line1 from '../images/Line1.png'

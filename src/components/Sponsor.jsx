@@ -1,5 +1,3 @@
-import React from "react";
-import "../style.css";
 import ArrowRight from '../images/ArrowRight.png'
 
 const SponsorComponent = () => {
