@@ -16,7 +16,7 @@ const CommunityRegister = () => {
       <div className="timeline-container">
         <img src={Vector2} alt="Zigzag Line" className="zigzag-line" />
         <div className="avatar-container" >
-          <img src={Blackguy} alt="Avatar" className="avatar" />
+          <img src={Blackguy} alt="Avatar" className="avatar " />
         </div>
         <div className="avatar-container" >
           <img src={Blackguy} alt="Avatar" className="avatar" />

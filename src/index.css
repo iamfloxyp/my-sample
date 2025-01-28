@@ -8,7 +8,7 @@
 html, body {
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
+  font-family: Montserrat, sans-serif;
   height: 100%;
 }
 
@@ -768,6 +768,8 @@ opacity: 0px;
 /* Image Section */
 .image-container {
   flex: 1;
+  position: relative;
+  right: 2rem;
 }
 
 .main-image {
@@ -783,7 +785,7 @@ opacity: 0px;
 }
 .line{
   position: relative;
-  right: 2rem;
+  right: 1rem;
 }
 
 /* Content Section */
@@ -794,7 +796,7 @@ opacity: 0px;
   gap: 1rem;
   width:  802px;
   height: 556px;
-  right: 1rem;
+  left: 1rem;
   gap: 110px;
   opacity: 0px;
   position: relative;
@@ -1028,13 +1030,13 @@ right: 1.5rem;
 .founders-friday-section {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start; /* Align items to the top */
+  align-items: flex-start; 
   position: relative;
   width: 1728px;
   height: 678px;
   margin: 50px auto;
   gap: 194px;
-  top: 3134px;
+  top: 2534px;
   left: 80px;
   box-sizing: border-box;
 }
@@ -1042,9 +1044,9 @@ right: 1.5rem;
 /* Text and Line Section */
 .founders-text-line {
   display: flex;
-  flex-direction: row; /* Ensure the line and content are side-by-side */
-  align-items: center; /* Align content vertically with the line */
-  gap: 2rem; /* Add space between the line and content */
+  flex-direction: row; 
+  align-items: center; 
+  gap: 2rem; 
   flex: 1;
 }
 
@@ -1287,7 +1289,7 @@ color: #ffffff;
   padding: 40px;
   gap: 20px;
   position: relative;
-  top: 3150px;
+  top: 2550px;
 }
 
 /* Header Section */
@@ -1331,7 +1333,7 @@ opacity: 0px;
 .sponsor-left {
 
   width: Fixed (670px)px;
-height: Hug (477px)px;
+ height: Hug (477px)px;
 gap: 30px;
 opacity: 0px;
 
@@ -1425,7 +1427,7 @@ color:  #3C3641;
 
 }
 
-.benefit h3 {
+.sponsor-benefits h3 {
 color:  #0A0A0B;
 font-family: Montserrat;
 font-size: 24px;
@@ -1437,7 +1439,7 @@ text-decoration-skip-ink: none;
 
 }
 
-.benefit p {
+.sponsor-benefits p {
 color: #3C3641;
 
 font-family: "Montserrat";
@@ -1603,25 +1605,28 @@ text-decoration-skip-ink: none;
 
   .sponsor-left h2 {
     font-size: 22px;
-    bottom: 0;
+    bottom: 15rem;
     right: 0;
   }
 
   .sponsor-benefits {
     grid-template-columns: repeat(2, 1fr); 
-    width: 100%;
-    height: auto;
+    width: 500px;
+    height: 500px;
     gap: 15px;
     padding: 10px;
     border: none;
+    position: relative;
+    top: -1rem;
+    right: 1.5rem;
   }
 
   .benefit1,
   .benefit2,
   .benefit3,
   .benefit4 {
-    width: 100%;
-    height: auto;
+    width: 220px;
+    height: 220px;
     border-radius: 50%;
     padding: 15px;
   }
@@ -1639,7 +1644,7 @@ text-decoration-skip-ink: none;
   /* Right Section */
   .sponsor-right {
     width: 100%;
-    top: 0;
+    top: 10rem;
     text-align: center;
   }
 
@@ -1706,7 +1711,7 @@ text-decoration-skip-ink: none;
   padding: 20px;
   color: #ffffff;
   position: relative;
-  top: 5027px;
+  top: 2827px;
 }
 
 /* Overlay Section */
@@ -1989,6 +1994,7 @@ text-decoration-skip-ink: none;
   align-items: center;
   position: relative;
   right: 6rem;
+  bottom: 3000px;
 }
 
 .community-header {
@@ -2026,7 +2032,7 @@ text-decoration-skip-ink: none;
   position: relative;
   width: 1743.5px;
   height: 300px;
-  top: 232.38px;
+  bottom: 2800px;
   margin: 0 auto;
 }
 
@@ -2039,10 +2045,11 @@ text-decoration-skip-ink: none;
   transform: translateY(-50%);
 }
 
-.avatar-container:nth-child(1) {
-  top: 188px;
+.avatar-container {
+  top: 198px;
   left: 0%;
   border-color: #8300ff;
+
 }
 
 .avatar-container:nth-child(2) {
@@ -2052,7 +2059,7 @@ text-decoration-skip-ink: none;
 }
 
 .avatar-container:nth-child(3) {
-  top: 158px;
+  top: 148px;
   left: 533px;
   border-color: #ff3b30;
 }
@@ -2118,7 +2125,7 @@ text-decoration-skip-ink: none;
   margin-top: 30px;
   transition: all 0.3s ease;
   position: relative;
-  top: 15rem;
+  bottom: 2830px;
   right: 4rem;
   line-height: 28.8px;
 }
@@ -2148,6 +2155,7 @@ text-decoration-skip-ink: none;
     gap: 15px;
     position: relative;
     right: -2rem;
+    top: -3rem;
   }
 
   .community-header {
@@ -2278,7 +2286,7 @@ text-decoration-skip-ink: none;
   height: 564px;
   margin: 0 auto;
   position: relative;
-  top: 782px;
+  top: 3382px;
   left: 80px;
   gap: 55px;
 }
@@ -2424,7 +2432,7 @@ text-decoration-skip-ink: none;
   margin: 0 auto;
   text-align: center;
   position: relative;
-  top: 7526px;
+  top: 3626px;
   right: 7rem;
   gap: 80px;
 }
@@ -2645,7 +2653,7 @@ text-decoration-skip-ink: none;
   position: relative;
   width: Fixed 1380px;
   height: 177px;
-  top: 8406px;
+  top: 3900px;
   left: 174px;
   gap: 0px;
   justify-content: space-between;
@@ -2756,7 +2764,7 @@ text-decoration-skip-ink: none;
   position: relative;
   text-align: center;
   padding: 20px 0;
-  top: 8732px;
+  top: 4332px;
   right: 4rem;
   border-top: 1px solid #ccc;
 }
@@ -2804,7 +2812,7 @@ text-decoration-skip-ink: none;
 }
 
 .footer-button {
-  width: 486.8px;
+  width: 496.8px;
   height: 80px;
   border-radius: 40px;
   padding: 20px;
